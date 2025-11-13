@@ -1,0 +1,35 @@
+body{
+    background-color: #C7AD7F;
+}
+h1{
+    text-align: center;
+    font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
+}
+.main, .description, .ingredients, .steps{
+    border: 2px solid slateblue;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 8px;
+}
+img{
+    display: block;
+    margin: 0 auto;
+    border: 2px dotted #df8989;
+}
+.main{
+    width: 50%;
+    margin: 0 auto;
+}
+.main.sub-main-list{
+    text-align: center;
+    list-style-position: inside;
+}
+.home{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 8px;
+    margin: 3px;
+    background-color: #6F4E37;
+    color: black;
+}
